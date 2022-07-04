@@ -20,10 +20,19 @@ main * {
 }
 
 a {
-  color:#4561c9;
-  font-weight:bold
+  font-weight:bold;
+  color:#4561c9
 }
 
 a:hover {
   color:#324dae
+}
+
+code {
+  font-size:14px
+}
+
+pre {
+  padding:5px 10px;
+  background:#d0c5f4
 }
