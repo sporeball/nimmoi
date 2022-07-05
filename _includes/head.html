@@ -2,7 +2,7 @@
   {%- if page.title == "home" -%}
   {%- capture title -%}{{ site.title }}{%- endcapture -%}
   {%- else -%}
-  {%- capture title -%}{{ page.title }} | {{ site.title }}{%- endcapture -%}
+  {%- capture title -%}{{ page.title }} - {{ site.title }}{%- endcapture -%}
   {%- endif -%}
   <title>{{ title }}</title>
 

@@ -1,0 +1,6 @@
+title: nimmoi
+description: a soft Jekyll theme for simple sites
+encoding: utf-8
+
+sass:
+  style: compressed
