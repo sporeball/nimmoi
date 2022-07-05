@@ -28,6 +28,12 @@ a:hover {
   color:#324dae
 }
 
+a[target="_blank"]:after {
+  content:"\00a0*";
+  display:inline-block;
+  text-decoration:none
+}
+
 code {
   font-size:14px
 }
