@@ -4,3 +4,5 @@ encoding: utf-8
 
 sass:
   style: compressed
+
+footer: "(c) sporeball 2022 &mdash; MIT license"
