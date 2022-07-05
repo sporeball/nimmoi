@@ -1,8 +1,8 @@
 <head>
-  {%- if page.title == "home" -%}
-  {%- capture title -%}{{ site.title }}{%- endcapture -%}
+  {%- if page.title == site.title -%}
+  {%- capture title -%}{{ site.title }} &mdash; home{%- endcapture -%}
   {%- else -%}
-  {%- capture title -%}{{ page.title }} - {{ site.title }}{%- endcapture -%}
+  {%- capture title -%}{{ site.title }} &mdash; {{ page.title }}{%- endcapture -%}
   {%- endif -%}
   <title>{{ title }}</title>
 

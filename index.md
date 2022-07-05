@@ -1,6 +1,4 @@
 ---
-title: home
+title: nimmoi
 layout: page
 ---
-
-# nimmoi
