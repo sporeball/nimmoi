@@ -5,4 +5,4 @@ encoding: utf-8
 sass:
   style: compressed
 
-footer: "(c) sporeball 2022 &mdash; MIT license"
+footer: "(c) 2022 <a href='https://sporeball.dev'>sporeball</a> &mdash; MIT license"
